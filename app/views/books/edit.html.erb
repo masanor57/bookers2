@@ -1,6 +1,6 @@
 <%= render 'layouts/error_messages', user: @book %>
-<h2>Editing Book</h2>
-<%= form_with model:@book,local:true do |f| %>
+　<h2>Editing Book</h2>
+　　<%= form_with model:@book,local:true do |f| %>
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title, autofocus: true, placeholder:"title"%>
